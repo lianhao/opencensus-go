@@ -6,9 +6,9 @@ import (
 	"log"
 	"sort"
 
-	"go.opencensus.io/metric/metricdata"
-	"go.opencensus.io/metric/metricexport"
-	"go.opencensus.io/plugin/runmetrics"
+	"github.com/lianhao/opencensus-go/metric/metricdata"
+	"github.com/lianhao/opencensus-go/metric/metricexport"
+	"github.com/lianhao/opencensus-go/plugin/runmetrics"
 )
 
 type printExporter struct {

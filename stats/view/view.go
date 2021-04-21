@@ -24,9 +24,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go.opencensus.io/metric/metricdata"
-	"go.opencensus.io/stats"
-	"go.opencensus.io/tag"
+	"github.com/lianhao/opencensus-go/metric/metricdata"
+	"github.com/lianhao/opencensus-go/stats"
+	"github.com/lianhao/opencensus-go/tag"
 )
 
 // View allows users to aggregate the recorded stats.Measurements.

@@ -24,8 +24,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go.opencensus.io/internal"
-	"go.opencensus.io/trace/tracestate"
+	"github.com/lianhao/opencensus-go/internal"
+	"github.com/lianhao/opencensus-go/trace/tracestate"
 )
 
 type tracer struct{}

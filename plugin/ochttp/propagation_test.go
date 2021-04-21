@@ -22,10 +22,10 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"go.opencensus.io/plugin/ochttp/propagation/b3"
-	"go.opencensus.io/plugin/ochttp/propagation/tracecontext"
-	"go.opencensus.io/trace"
-	"go.opencensus.io/trace/propagation"
+	"github.com/lianhao/opencensus-go/plugin/ochttp/propagation/b3"
+	"github.com/lianhao/opencensus-go/plugin/ochttp/propagation/tracecontext"
+	"github.com/lianhao/opencensus-go/trace"
+	"github.com/lianhao/opencensus-go/trace/propagation"
 )
 
 func TestRoundTripAllFormats(t *testing.T) {

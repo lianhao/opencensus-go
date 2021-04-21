@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	"go.opencensus.io/internal/testpb"
-	"go.opencensus.io/trace"
+	"github.com/lianhao/opencensus-go/internal/testpb"
+	"github.com/lianhao/opencensus-go/trace"
 )
 
 type testExporter struct {

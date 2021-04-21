@@ -20,13 +20,13 @@ import (
 	"sync"
 	"time"
 
-	"go.opencensus.io/resource"
+	"github.com/lianhao/opencensus-go/resource"
 
-	"go.opencensus.io/metric/metricdata"
-	"go.opencensus.io/metric/metricproducer"
-	"go.opencensus.io/stats"
-	"go.opencensus.io/stats/internal"
-	"go.opencensus.io/tag"
+	"github.com/lianhao/opencensus-go/metric/metricdata"
+	"github.com/lianhao/opencensus-go/metric/metricproducer"
+	"github.com/lianhao/opencensus-go/stats"
+	"github.com/lianhao/opencensus-go/stats/internal"
+	"github.com/lianhao/opencensus-go/tag"
 )
 
 func init() {

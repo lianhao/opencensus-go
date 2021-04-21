@@ -23,8 +23,8 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/stats"
 
-	"go.opencensus.io/stats/view"
-	"go.opencensus.io/trace"
+	"github.com/lianhao/opencensus-go/stats/view"
+	"github.com/lianhao/opencensus-go/trace"
 )
 
 func TestClientHandler(t *testing.T) {

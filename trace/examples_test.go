@@ -18,7 +18,7 @@ import (
 	"context"
 	"fmt"
 
-	"go.opencensus.io/trace"
+	"github.com/lianhao/opencensus-go/trace"
 )
 
 // This example shows how to use StartSpan and (*Span).End to capture

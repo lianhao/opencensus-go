@@ -21,9 +21,9 @@ import (
 	"strings"
 	"time"
 
-	"go.opencensus.io/stats"
-	"go.opencensus.io/stats/internal"
-	"go.opencensus.io/tag"
+	"github.com/lianhao/opencensus-go/stats"
+	"github.com/lianhao/opencensus-go/stats/internal"
+	"github.com/lianhao/opencensus-go/tag"
 )
 
 type command interface {

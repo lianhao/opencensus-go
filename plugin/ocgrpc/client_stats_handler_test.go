@@ -22,15 +22,15 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 
-	"go.opencensus.io/trace"
+	"github.com/lianhao/opencensus-go/trace"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
 	"context"
 
-	"go.opencensus.io/metric/metricdata"
-	"go.opencensus.io/stats/view"
-	"go.opencensus.io/tag"
+	"github.com/lianhao/opencensus-go/metric/metricdata"
+	"github.com/lianhao/opencensus-go/stats/view"
+	"github.com/lianhao/opencensus-go/tag"
 
 	"google.golang.org/grpc/stats"
 )

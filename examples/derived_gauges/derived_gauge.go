@@ -39,10 +39,10 @@ import (
 	"sync"
 	"time"
 
-	"go.opencensus.io/examples/exporter"
-	"go.opencensus.io/metric"
-	"go.opencensus.io/metric/metricdata"
-	"go.opencensus.io/metric/metricproducer"
+	"github.com/lianhao/opencensus-go/examples/exporter"
+	"github.com/lianhao/opencensus-go/metric"
+	"github.com/lianhao/opencensus-go/metric/metricdata"
+	"github.com/lianhao/opencensus-go/metric/metricproducer"
 )
 
 const (

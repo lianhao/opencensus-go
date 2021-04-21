@@ -28,11 +28,11 @@ import (
 
 	"net/http"
 
-	"go.opencensus.io/examples/exporter"
-	"go.opencensus.io/stats"
-	"go.opencensus.io/stats/view"
-	"go.opencensus.io/tag"
-	"go.opencensus.io/zpages"
+	"github.com/lianhao/opencensus-go/examples/exporter"
+	"github.com/lianhao/opencensus-go/stats"
+	"github.com/lianhao/opencensus-go/stats/view"
+	"github.com/lianhao/opencensus-go/tag"
+	"github.com/lianhao/opencensus-go/zpages"
 )
 
 const (

@@ -23,8 +23,8 @@ import (
 	"google.golang.org/grpc/stats"
 	"google.golang.org/grpc/status"
 
-	"go.opencensus.io/trace"
-	"go.opencensus.io/trace/propagation"
+	"github.com/lianhao/opencensus-go/trace"
+	"github.com/lianhao/opencensus-go/trace/propagation"
 )
 
 const traceContextKey = "grpc-trace-bin"

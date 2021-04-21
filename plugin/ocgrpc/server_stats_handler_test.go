@@ -24,10 +24,10 @@ import (
 	"google.golang.org/grpc/stats"
 	"google.golang.org/grpc/status"
 
-	"go.opencensus.io/metric/metricdata"
-	"go.opencensus.io/stats/view"
-	"go.opencensus.io/tag"
-	"go.opencensus.io/trace"
+	"github.com/lianhao/opencensus-go/metric/metricdata"
+	"github.com/lianhao/opencensus-go/stats/view"
+	"github.com/lianhao/opencensus-go/tag"
+	"github.com/lianhao/opencensus-go/trace"
 )
 
 func TestServerDefaultCollections(t *testing.T) {

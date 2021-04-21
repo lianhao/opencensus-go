@@ -18,9 +18,9 @@ package stats
 import (
 	"context"
 
-	"go.opencensus.io/metric/metricdata"
-	"go.opencensus.io/stats/internal"
-	"go.opencensus.io/tag"
+	"github.com/lianhao/opencensus-go/metric/metricdata"
+	"github.com/lianhao/opencensus-go/stats/internal"
+	"github.com/lianhao/opencensus-go/tag"
 )
 
 func init() {

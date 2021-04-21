@@ -22,7 +22,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"go.opencensus.io/metric/metricdata"
+	"github.com/lianhao/opencensus-go/metric/metricdata"
 )
 
 func TestDataClone(t *testing.T) {

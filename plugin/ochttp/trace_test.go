@@ -33,9 +33,9 @@ import (
 	"testing"
 	"time"
 
-	"go.opencensus.io/plugin/ochttp/propagation/b3"
-	"go.opencensus.io/plugin/ochttp/propagation/tracecontext"
-	"go.opencensus.io/trace"
+	"github.com/lianhao/opencensus-go/plugin/ochttp/propagation/b3"
+	"github.com/lianhao/opencensus-go/plugin/ochttp/propagation/tracecontext"
+	"github.com/lianhao/opencensus-go/trace"
 )
 
 type testExporter struct {

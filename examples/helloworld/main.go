@@ -23,11 +23,11 @@ import (
 	"math/rand"
 	"time"
 
-	"go.opencensus.io/examples/exporter"
-	"go.opencensus.io/stats"
-	"go.opencensus.io/stats/view"
-	"go.opencensus.io/tag"
-	"go.opencensus.io/trace"
+	"github.com/lianhao/opencensus-go/examples/exporter"
+	"github.com/lianhao/opencensus-go/stats"
+	"github.com/lianhao/opencensus-go/stats/view"
+	"github.com/lianhao/opencensus-go/tag"
+	"github.com/lianhao/opencensus-go/trace"
 )
 
 var (
